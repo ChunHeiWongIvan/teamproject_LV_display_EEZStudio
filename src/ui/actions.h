@@ -23,6 +23,8 @@ extern void action_to_charging_menu_7(lv_event_t * e);
 extern void action_to_charging_menu_8(lv_event_t * e);
 extern void action_to_set_parameters_2(lv_event_t * e);
 extern void action_set_parameters_keypad_current(lv_event_t * e);
+extern void action_demo_change_state(lv_event_t * e);
+extern void action_demo_start_charts(lv_event_t * e);
 
 #ifdef __cplusplus
 }

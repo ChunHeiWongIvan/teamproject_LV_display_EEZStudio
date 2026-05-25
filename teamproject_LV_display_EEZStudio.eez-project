@@ -271,6 +271,24 @@
       "componentGroups": [],
       "userProperties": [],
       "name": "set_parameters_keypad_current"
+    },
+    {
+      "objID": "75d2fd42-c79f-4103-cc6a-ac74aad84c4f",
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "componentGroups": [],
+      "userProperties": [],
+      "name": "demo_change_state"
+    },
+    {
+      "objID": "e60089c1-48d4-41bf-c700-227aa855e623",
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "componentGroups": [],
+      "userProperties": [],
+      "name": "demo_start_charts"
     }
   ],
   "userPages": [
@@ -728,16 +746,24 @@
                 "childStyles": []
               },
               "timeline": [],
-              "eventHandlers": [],
+              "eventHandlers": [
+                {
+                  "objID": "c007eb38-778d-4ba8-dc69-dcef362d66a3",
+                  "eventName": "PRESSED",
+                  "handlerType": "action",
+                  "action": "demo_change_state",
+                  "userData": 0
+                }
+              ],
               "identifier": "status_container",
               "leftUnit": "px",
               "topUnit": "px",
               "widthUnit": "px",
               "heightUnit": "px",
               "children": [],
-              "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE",
+              "widgetFlags": "",
               "hiddenFlagType": "literal",
-              "clickableFlag": false,
+              "clickableFlag": true,
               "clickableFlagType": "literal",
               "flagScrollbarMode": "",
               "flagScrollDirection": "",
@@ -829,7 +855,15 @@
                 "childStyles": []
               },
               "timeline": [],
-              "eventHandlers": [],
+              "eventHandlers": [
+                {
+                  "objID": "14a79345-88a5-437c-a4f1-86ec5b1ddeba",
+                  "eventName": "PRESSED",
+                  "handlerType": "action",
+                  "action": "demo_start_charts",
+                  "userData": 0
+                }
+              ],
               "leftUnit": "px",
               "topUnit": "px",
               "widthUnit": "px",
