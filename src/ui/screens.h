@@ -17,14 +17,13 @@ enum ScreensEnum {
     SCREEN_ID_CHARGING_MENU_3 = 4,
     SCREEN_ID_CHARGING_MENU_4 = 5,
     SCREEN_ID_CHARGING_MENU_5 = 6,
-    SCREEN_ID_CHARGING_MENU_6 = 7,
-    SCREEN_ID_CHARGING_MENU_7 = 8,
-    SCREEN_ID_CHARGING_MENU_8 = 9,
-    SCREEN_ID_CHARGING_MENU_9 = 10,
-    SCREEN_ID_SET_PARAMETERS_1 = 11,
-    SCREEN_ID_SET_PARAMETERS_2 = 12,
-    SCREEN_ID_VIEW_DEBUG = 13,
-    _SCREEN_ID_LAST = 13
+    SCREEN_ID_CHARGING_MENU_7 = 7,
+    SCREEN_ID_CHARGING_MENU_8 = 8,
+    SCREEN_ID_CHARGING_MENU_9 = 9,
+    SCREEN_ID_SET_PARAMETERS_1 = 10,
+    SCREEN_ID_SET_PARAMETERS_2 = 11,
+    SCREEN_ID_VIEW_DEBUG = 12,
+    _SCREEN_ID_LAST = 12
 };
 
 typedef struct _objects_t {
@@ -34,7 +33,6 @@ typedef struct _objects_t {
     lv_obj_t *charging_menu_3;
     lv_obj_t *charging_menu_4;
     lv_obj_t *charging_menu_5;
-    lv_obj_t *charging_menu_6;
     lv_obj_t *charging_menu_7;
     lv_obj_t *charging_menu_8;
     lv_obj_t *charging_menu_9;
@@ -96,13 +94,6 @@ typedef struct _objects_t {
     lv_obj_t *pfc_voltage_scale_2;
     lv_obj_t *left_button_5;
     lv_obj_t *right_button_5;
-    lv_obj_t *back_button_8;
-    lv_obj_t *pfc_current_chart;
-    lv_obj_t *pfc_current_scale_1;
-    lv_obj_t *pfc_current_label;
-    lv_obj_t *pfc_current_scale_2;
-    lv_obj_t *left_button_6;
-    lv_obj_t *right_button_6;
     lv_obj_t *back_button_9;
     lv_obj_t *temperature_chart_1;
     lv_obj_t *temperature_scale_1;
@@ -182,9 +173,6 @@ void tick_screen_charging_menu_4();
 
 void create_screen_charging_menu_5();
 void tick_screen_charging_menu_5();
-
-void create_screen_charging_menu_6();
-void tick_screen_charging_menu_6();
 
 void create_screen_charging_menu_7();
 void tick_screen_charging_menu_7();
