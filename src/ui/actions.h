@@ -18,7 +18,6 @@ extern void action_to_test(lv_event_t * e);
 extern void action_to_charging_menu_4(lv_event_t * e);
 extern void action_to_charging_menu_5(lv_event_t * e);
 extern void action_to_charging_menu_9(lv_event_t * e);
-extern void action_to_charging_menu_6(lv_event_t * e);
 extern void action_to_charging_menu_7(lv_event_t * e);
 extern void action_to_charging_menu_8(lv_event_t * e);
 extern void action_to_set_parameters_2(lv_event_t * e);

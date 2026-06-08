@@ -1,6 +1,7 @@
 {
   "navigation": {
-    "selectedUserPageObject": "[teamproject_LV_display_EEZStudio.eez-project]:/userPages/5",
+    "selectedUserPageObject": "[teamproject_LV_display_EEZStudio.eez-project]:/userPages/11",
+    "selectedActionObject": "[teamproject_LV_display_EEZStudio.eez-project]:/actions/-1",
     "selectedStyleObject": "[teamproject_LV_display_EEZStudio.eez-project]:/lvglStyles/styles/0",
     "subnavigationSelectedItems": {}
   },
@@ -123,6 +124,7 @@
                   "type": "tabset",
                   "id": "#ff84114c-59d4-4c02-8cbc-b78cc32ac2a8",
                   "weight": 1,
+                  "selected": 2,
                   "enableClose": false,
                   "children": [
                     {
@@ -149,7 +151,8 @@
                       "enableClose": false,
                       "icon": "material:code"
                     }
-                  ]
+                  ],
+                  "active": true
                 },
                 {
                   "type": "tabset",
@@ -195,16 +198,15 @@
                 {
                   "type": "tab",
                   "id": "#4060da0d-90cf-4f7a-8351-8051313716e4",
-                  "name": "Charging Menu_5",
+                  "name": "View Debug",
                   "component": "editor",
                   "config": {
-                    "objectPath": "[teamproject_LV_display_EEZStudio.eez-project]:/userPages/5",
+                    "objectPath": "[teamproject_LV_display_EEZStudio.eez-project]:/userPages/11",
                     "permanent": false
                   },
                   "icon": "svg:page"
                 }
-              ],
-              "active": true
+              ]
             },
             {
               "type": "row",
@@ -1184,9 +1186,9 @@
       "transform": {
         "translate": {
           "x": -412.2687499999996,
-          "y": -259.5778219696969
+          "y": -159.5778219696969
         },
-        "scale": 1.75
+        "scale": 1.1
       },
       "timeline": {
         "isEditorActive": false,

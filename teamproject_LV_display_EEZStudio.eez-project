@@ -228,15 +228,6 @@
       "name": "to_charging_menu_9"
     },
     {
-      "objID": "7f2cecea-d1a7-4995-c7b7-c44106deef93",
-      "components": [],
-      "connectionLines": [],
-      "localVariables": [],
-      "componentGroups": [],
-      "userProperties": [],
-      "name": "to_charging_menu_6"
-    },
-    {
       "objID": "7eb35e19-025d-486a-db7d-c0b69805f1fc",
       "components": [],
       "connectionLines": [],
@@ -9829,7 +9820,7 @@
               "left": 27,
               "top": 97,
               "width": 80,
-              "height": 94,
+              "height": 68,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -9871,7 +9862,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "INPUT\nV_OUT\nI_OUT\nP_OUT",
+              "text": "V_OUT\nI_OUT\nP_OUT",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": true
@@ -10091,7 +10082,7 @@
               "left": 341,
               "top": 97,
               "width": 80,
-              "height": 68,
+              "height": 42,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -10133,7 +10124,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "UART_RX\nUART_TX\nCAN_RX",
+              "text": "UART_RX\nCAN_RX",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": false
@@ -10249,7 +10240,7 @@
               "left": 107,
               "top": 97,
               "width": 40,
-              "height": 94,
+              "height": 68,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -10258,6 +10249,7 @@
                 "conditionalStyles": [],
                 "childStyles": []
               },
+              "locked": false,
               "timeline": [],
               "eventHandlers": [],
               "identifier": "hv_states",
@@ -10291,7 +10283,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "ON\nOK\nOK\nOK",
+              "text": "OK\nOK\nOK",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": true
@@ -10408,7 +10400,7 @@
               "left": 421,
               "top": 97,
               "width": 40,
-              "height": 68,
+              "height": 42,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -10450,7 +10442,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "OK\nOK\nOK",
+              "text": "OK\nOK",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": true

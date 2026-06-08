@@ -2236,7 +2236,7 @@ void create_screen_view_debug() {
             lv_obj_set_style_width(obj, 80, LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_obj_set_style_text_font(obj, &lv_font_montserrat_14, LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_obj_set_style_text_line_space(obj, 10, LV_PART_MAIN | LV_STATE_DEFAULT);
-            lv_label_set_text(obj, "INPUT\nV_OUT\nI_OUT\nP_OUT");
+            lv_label_set_text(obj, "V_OUT\nI_OUT\nP_OUT");
         }
         {
             lv_obj_t *obj = lv_obj_create(parent_obj);
@@ -2299,7 +2299,7 @@ void create_screen_view_debug() {
             lv_obj_set_style_width(obj, 80, LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_obj_set_style_text_font(obj, &lv_font_montserrat_14, LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_obj_set_style_text_line_space(obj, 10, LV_PART_MAIN | LV_STATE_DEFAULT);
-            lv_label_set_text(obj, "UART_RX\nUART_TX\nCAN_RX");
+            lv_label_set_text(obj, "UART_RX\nCAN_RX");
         }
         {
             lv_obj_t *obj = lv_label_create(parent_obj);
@@ -2332,7 +2332,7 @@ void create_screen_view_debug() {
             lv_obj_set_style_text_font(obj, &lv_font_montserrat_14, LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_obj_set_style_text_color(obj, lv_color_hex(0xff00ff00), LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_obj_set_style_text_line_space(obj, 10, LV_PART_MAIN | LV_STATE_DEFAULT);
-            lv_label_set_text(obj, "ON\nOK\nOK\nOK");
+            lv_label_set_text(obj, "OK\nOK\nOK");
         }
         {
             // overall_states
@@ -2368,7 +2368,7 @@ void create_screen_view_debug() {
             lv_obj_set_style_width(obj, 40, LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_obj_set_style_text_font(obj, &lv_font_montserrat_14, LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_obj_set_style_text_line_space(obj, 10, LV_PART_MAIN | LV_STATE_DEFAULT);
-            lv_label_set_text(obj, "OK\nOK\nOK");
+            lv_label_set_text(obj, "OK\nOK");
         }
     }
     
