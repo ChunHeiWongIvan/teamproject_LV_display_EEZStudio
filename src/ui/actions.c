@@ -6,21 +6,21 @@
 extern const char * get_var_constant_voltage_setpoint_text(void);
 extern const char * get_var_constant_current_setpoint_text(void);
 
-static int32_t clamp_i32(int32_t x, int32_t lo, int32_t hi) // Helper clamp function, int32
+int32_t clamp_i32(int32_t x, int32_t lo, int32_t hi) // Helper clamp function, int32
 {
     if(x < lo) return lo;
     if(x > hi) return hi;
     return x;
 }
 
-static float clamp_float(float x, float lo, float hi) // Helper clamp function, float
+float clamp_float(float x, float lo, float hi) // Helper clamp function, float
 {
     if(x < lo) return lo;
     if(x > hi) return hi;
     return x;
 }
 
-static int32_t voltage_to_bar(int32_t v, int32_t MIN, int32_t MAX) // Helper to convert voltage into bar percentage
+int32_t voltage_to_bar(int32_t v, int32_t MIN, int32_t MAX) // Helper to convert voltage into bar percentage
 {
     v = clamp_i32(v, MIN, MAX);
 
@@ -28,7 +28,7 @@ static int32_t voltage_to_bar(int32_t v, int32_t MIN, int32_t MAX) // Helper to 
     return (int32_t)((v - MIN) * 100 / (MAX - MIN));
 }
 
-static float current_to_bar(float i, float MIN, float MAX) // Helper to convert current into bar percentage
+float current_to_bar(float i, float MIN, float MAX) // Helper to convert current into bar percentage
 {
     i = clamp_float(i, MIN, MAX);
 
@@ -36,7 +36,7 @@ static float current_to_bar(float i, float MIN, float MAX) // Helper to convert 
     return (float)((i - MIN) * 100 / (MAX - MIN));
 }
 
-static float get_current_max_for_voltage(float voltage) // Helper for calculating max current depending on voltage
+float get_current_max_for_voltage(float voltage) // Helper for calculating max current depending on voltage
 {
     if(voltage <= 400.0f)
     {
@@ -70,11 +70,6 @@ void action_to_charging_menu_4(lv_event_t * e)
 void action_to_charging_menu_5(lv_event_t * e)
 {
     lv_screen_load(objects.charging_menu_5);
-}
-
-void action_to_charging_menu_6(lv_event_t * e)
-{
-    lv_screen_load(objects.charging_menu_6);
 }
 
 void action_to_charging_menu_7(lv_event_t * e)
