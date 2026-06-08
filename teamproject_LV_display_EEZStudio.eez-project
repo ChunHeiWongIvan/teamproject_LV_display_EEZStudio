@@ -129,6 +129,15 @@
   },
   "actions": [
     {
+      "objID": "18f84f7a-b950-4e3d-eac4-3118b83ae754",
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "componentGroups": [],
+      "userProperties": [],
+      "name": "to_main_menu"
+    },
+    {
       "objID": "8eebd511-5456-47ee-9ef5-5cf3bbd79209",
       "components": [],
       "connectionLines": [],
@@ -181,15 +190,6 @@
       "componentGroups": [],
       "userProperties": [],
       "name": "to_view_debug"
-    },
-    {
-      "objID": "18f84f7a-b950-4e3d-eac4-3118b83ae754",
-      "components": [],
-      "connectionLines": [],
-      "localVariables": [],
-      "componentGroups": [],
-      "userProperties": [],
-      "name": "to_main_menu"
     },
     {
       "objID": "6481124c-7e3a-44f5-ad75-7fd08cf37cef",
@@ -294,9 +294,9 @@
               "objID": "6b272cb8-48b4-467f-c130-a1edc1f930b7",
               "type": "LVGLLabelWidget",
               "left": 10,
-              "top": 10,
+              "top": 9,
               "width": 458,
-              "height": 16,
+              "height": 21,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -325,13 +325,14 @@
                   "MAIN": {
                     "DEFAULT": {
                       "align": "DEFAULT",
-                      "text_align": "CENTER"
+                      "text_align": "CENTER",
+                      "text_font": "MONTSERRAT_18"
                     }
                   }
                 }
               },
               "groupIndex": 0,
-              "text": "Wide output voltage range Li-ion battery charger",
+              "text": "EZEV Charger",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": false
@@ -1162,7 +1163,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "400.0 V",
+              "text": "200.0 V",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": false,
@@ -1270,7 +1271,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "5.000 A",
+              "text": "1.000 A",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": false,
@@ -1696,12 +1697,12 @@
               "scaleMode": "VERTICAL_LEFT",
               "minValue": 0,
               "minValueType": "literal",
-              "maxValue": 600,
+              "maxValue": 700,
               "maxValueType": "literal",
               "angleRange": 270,
               "rotation": 135,
               "rotationType": "literal",
-              "totalTickCount": 13,
+              "totalTickCount": 15,
               "majorTickEvery": 2,
               "postDraw": false,
               "drawTicksOnTop": false,
@@ -1809,7 +1810,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "400.0 V",
+              "text": "200.0 V",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": false
@@ -2552,7 +2553,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "5.000 A",
+              "text": "1.000 A",
               "textType": "literal",
               "longMode": "CLIP",
               "recolor": false
@@ -3295,7 +3296,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "2.500 kW",
+              "text": "0.200 kW",
               "textType": "literal",
               "longMode": "CLIP",
               "recolor": false
@@ -3925,12 +3926,12 @@
               "scaleMode": "VERTICAL_LEFT",
               "minValue": 0,
               "minValueType": "literal",
-              "maxValue": 600,
+              "maxValue": 700,
               "maxValueType": "literal",
               "angleRange": 270,
               "rotation": 135,
               "rotationType": "literal",
-              "totalTickCount": 13,
+              "totalTickCount": 15,
               "majorTickEvery": 2,
               "postDraw": false,
               "drawTicksOnTop": false,
@@ -4038,7 +4039,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "400.0 V",
+              "text": "0.0 V",
               "textType": "literal",
               "longMode": "CLIP",
               "recolor": false
@@ -4668,12 +4669,12 @@
               "scaleMode": "VERTICAL_LEFT",
               "minValue": 0,
               "minValueType": "literal",
-              "maxValue": 600,
+              "maxValue": 700,
               "maxValueType": "literal",
               "angleRange": 270,
               "rotation": 135,
               "rotationType": "literal",
-              "totalTickCount": 13,
+              "totalTickCount": 15,
               "majorTickEvery": 2,
               "postDraw": false,
               "drawTicksOnTop": false,
@@ -5532,9 +5533,9 @@
             {
               "objID": "eb1b2fbf-bc9e-41c1-c267-cfa154c08334",
               "type": "LVGLLabelWidget",
-              "left": 194,
+              "left": 199,
               "top": 53,
-              "width": 123,
+              "width": 114,
               "height": 15,
               "customInputs": [],
               "customOutputs": [],
@@ -5574,7 +5575,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "Temperature Sense 1",
+              "text": "PFSB Temperature",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": false
@@ -6275,9 +6276,9 @@
             {
               "objID": "dbe131f3-49a5-4657-a538-23b05b2dff5a",
               "type": "LVGLLabelWidget",
-              "left": 194,
+              "left": 203,
               "top": 53,
-              "width": 126,
+              "width": 107,
               "height": 15,
               "customInputs": [],
               "customOutputs": [],
@@ -6317,7 +6318,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "Temperature Sense 2",
+              "text": "PFC Temperature",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": false
@@ -7018,9 +7019,9 @@
             {
               "objID": "735869c6-2623-47b4-e51d-1cac5917b3a7",
               "type": "LVGLLabelWidget",
-              "left": 194,
+              "left": 187,
               "top": 53,
-              "width": 126,
+              "width": 141,
               "height": 15,
               "customInputs": [],
               "customOutputs": [],
@@ -7060,7 +7061,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "Temperature Sense 3",
+              "text": "Enclosure Temperature",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": false
@@ -9676,7 +9677,7 @@
                   },
                   "group": "",
                   "groupIndex": 0,
-                  "text": "HV / Output",
+                  "text": "Output / HV",
                   "textType": "literal",
                   "longMode": "WRAP",
                   "recolor": false
@@ -9820,7 +9821,7 @@
               "left": 27,
               "top": 97,
               "width": 80,
-              "height": 68,
+              "height": 146,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -9862,7 +9863,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "V_OUT\nI_OUT\nP_OUT",
+              "text": "UART_RX\nV_OVER\nI_OVER\nP_OVER\nVBAT_R\nVBAT_OV",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": true
@@ -10029,7 +10030,7 @@
               "left": 186,
               "top": 97,
               "width": 80,
-              "height": 16,
+              "height": 42,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -10071,7 +10072,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "TEMP",
+              "text": "TEMP_OV\nSDC",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": false
@@ -10135,7 +10136,7 @@
               "left": 186,
               "top": 225,
               "width": 80,
-              "height": 16,
+              "height": 42,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -10177,7 +10178,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "V_OUT",
+              "text": "V_UNDER\nV_OVER",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": false
@@ -10240,7 +10241,7 @@
               "left": 107,
               "top": 97,
               "width": 40,
-              "height": 68,
+              "height": 146,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -10283,7 +10284,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "OK\nOK\nOK",
+              "text": "OK\nOK\nOK\nOK\nOK\nOK",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": true
@@ -10294,7 +10295,7 @@
               "left": 266,
               "top": 97,
               "width": 40,
-              "height": 16,
+              "height": 42,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -10336,7 +10337,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "OK",
+              "text": "OK\nOK",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": true
@@ -10347,7 +10348,7 @@
               "left": 266,
               "top": 225,
               "width": 40,
-              "height": 16,
+              "height": 42,
               "customInputs": [],
               "customOutputs": [],
               "style": {
@@ -10389,7 +10390,7 @@
               },
               "group": "",
               "groupIndex": 0,
-              "text": "OK",
+              "text": "OK\nOK",
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": true

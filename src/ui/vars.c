@@ -1,8 +1,8 @@
 #include "vars.h"
 #include <stdio.h>
 
-float constant_voltage_setpoint = 400.0f;
-float constant_current_setpoint = 5.000f;
+float constant_voltage_setpoint = 200.0f;
+float constant_current_setpoint = 1.000f;
 
 // For constant voltage (CV) setpoint
 float get_var_constant_voltage_setpoint() {
