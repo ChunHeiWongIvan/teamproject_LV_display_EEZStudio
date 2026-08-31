@@ -1,4 +1,4 @@
-# Formula Student EV Charger – LVGL Interface Design
+# Formula Student Charger LV/ Human-Machine Interface (HMI) GUI
 
 This repository contains the EEZ Studio project used to design and edit the LVGL touchscreen interface for a Formula Student EV battery charger.
 
